@@ -3,7 +3,7 @@ import { Box, Typography, IconButton, Avatar } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
-import xpIcon from '../../assets/xp-icon.svg';
+import xpIcon from '../../assets/Images/xp-icon.svg';
 import StreakIntroModal from './StreakIntroModal';
 import { useNavigate } from 'react-router-dom';
 

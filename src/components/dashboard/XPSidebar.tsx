@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Box, Typography, IconButton, styled, Backdrop } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import xpIcon from '../../assets/xp-icon.svg';
+import xpIcon from '../../assets/Images/xp-icon.svg';
 
 interface XPSidebarProps {
   open: boolean;

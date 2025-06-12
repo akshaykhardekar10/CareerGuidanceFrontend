@@ -7,7 +7,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import { Discord } from './Icons/Discord';
+import { Discord } from '../components/Icons/Discord';
 
 const FooterContainer = styled(Box)({
   // backgroundColor: '#f7f5fb',

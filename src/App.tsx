@@ -1,10 +1,9 @@
-import React from 'react';
+import { Routes,Route } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './LayoutComponents/Navbar';
-import Hero from './components/Hero';
+import Hero from './components/LandingPageSection/Hero';
 import SignUp from './components/SignUp';
 import SignInWithEmail from './components/SignInWithEmail';
 import Onboarding from './components/Onboarding';
@@ -15,9 +14,10 @@ import DashboardOverview from './components/DashboardOverview';
 import DashboardRoadmap from './components/dashboard/DashboardRoadmap';
 import Profile from './components/dashboard/Profile';
 import ResumeBuilder from './components/ResumeBuilder';
-import Footer from './components/Footer';
+
 import IndustryInsights from './components/IndustryInsights';
 import Jobs from './components/Jobs';
+import Footer from './LayoutComponents/Footer';
 
 const theme = createTheme({
   palette: {
@@ -57,7 +57,7 @@ const HomePage = () => (
   <>
     <Navbar />
     <Hero />
-    <Footer />
+    <Footer/>
   </>
 );
 
@@ -65,7 +65,6 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
         <Box sx={{ 
           width: '100%',
           minHeight: '100vh',
@@ -94,7 +93,6 @@ function App() {
             </Route>
           </Routes>
         </Box>
-      </Router>
     </ThemeProvider>
   );
 }
