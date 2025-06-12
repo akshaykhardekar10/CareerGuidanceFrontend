@@ -3,7 +3,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './LayoutComponents/Navbar';
 import Hero from './components/Hero';
 import SignUp from './components/SignUp';
 import SignInWithEmail from './components/SignInWithEmail';
