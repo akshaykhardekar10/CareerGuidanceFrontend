@@ -3,9 +3,10 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Navbar from './LayoutComponents/Navbar';
-import Hero from './components/LandingPageSection/Hero';
-import SignUp from './components/SignUp';
-import SignInWithEmail from './components/SignInWithEmail';
+import Hero from './LandingPageSection/Hero';
+import SignUp from './AuthenticationPage/SignUp';
+import SignIn from './AuthenticationPage/SignIn';
+import SignInWithEmail from './AuthenticationPage/SignInWithEmail';
 import Onboarding from './components/Onboarding';
 import Quiz from './components/Quiz';
 import Roadmap from './components/Roadmap';
@@ -14,7 +15,6 @@ import DashboardOverview from './components/DashboardOverview';
 import DashboardRoadmap from './components/dashboard/DashboardRoadmap';
 import Profile from './components/dashboard/Profile';
 import ResumeBuilder from './components/ResumeBuilder';
-
 import IndustryInsights from './components/IndustryInsights';
 import Jobs from './components/Jobs';
 import Footer from './LayoutComponents/Footer';
@@ -74,6 +74,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/signup" element={<SignUp />} />
+            <Route path="/signin" element={<SignIn/>} />
             <Route path="/signin/email" element={<SignInWithEmail />} />
             <Route path="/onboarding" element={<Onboarding />} />
             <Route path="/dashboard/assessment" element={<Quiz />} />

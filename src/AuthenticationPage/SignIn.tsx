@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Box, Container, Typography, Button, Divider } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import GoogleIcon from '@mui/icons-material/Google';
@@ -73,7 +73,7 @@ const MainButton = styled(Button)({
   fontWeight: 500,
 });
 
-const SignUp = () => {
+const SignIn = () => {
   const navigate = useNavigate();
 
   const handleEmailClick = () => {
@@ -185,4 +185,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp; 
+export default SignIn; 
