@@ -1,6 +1,6 @@
-# YuJa Clone
+# CareerGuidanceFrontend
 
-This is a clone of the YuJa website's landing page, built with React, TypeScript, and Material-UI.
+This is a Frontend of the CareerGuidance website's , built with React, TypeScript, and Material-UI.
 
 ## Features
 
@@ -14,14 +14,14 @@ This is a clone of the YuJa website's landing page, built with React, TypeScript
 ## Prerequisites
 
 - Node.js (v18 or higher)
-- npm or yarn
+- npm
 
 ## Setup
 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd yuja-clone
+cd CareerGuidanceFrontend
 ```
 
 2. Install dependencies:
